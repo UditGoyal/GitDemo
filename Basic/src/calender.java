@@ -22,8 +22,12 @@ public class calender {
 			driver.findElement(By.className("next")).click();
 		}
 		driver.findElement(By.xpath("//td[text()='19']")).click();
+<<<<<<< HEAD
 		
 		
+=======
+		System.out.println("architect changes");
+>>>>>>> 01977528b5e1f72a334fd326ac6d4fd80c1c0719
 	}
 		
 
