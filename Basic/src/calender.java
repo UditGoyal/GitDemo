@@ -10,6 +10,9 @@ public class calender {
 		driver.manage().window().maximize();
 		
 		driver.get("https://www.hotelbids.com/");
+		System.out.println("adding some lines");
+		System.out.println("for demo purpose");
+		System.out.println("on github");
 		String strYear = "September 2019";
 		driver.findElement(By.name("start")).click();
 		while(!driver.findElement(By.className("datepicker-switch")).getText().equalsIgnoreCase(strYear))
